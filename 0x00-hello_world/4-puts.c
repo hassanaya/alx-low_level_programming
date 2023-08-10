@@ -1,8 +1,10 @@
 #include<stdio.h>
 
-/*
- * main - EntryPoint
+/**
+ * main - Entry Point
+ *
  * Description : Hello, puts
+ *
  * Return : always 0 (success)
 */
 
