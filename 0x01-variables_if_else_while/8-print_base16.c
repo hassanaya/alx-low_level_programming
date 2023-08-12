@@ -12,7 +12,7 @@ int main(void)
 
 	while (d <= 102)
 	{
-		putchar(d + '0');
+		putchar(d);
 		if (d == 57)
 			d += 39;
 		d++;
