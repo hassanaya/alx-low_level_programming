@@ -5,9 +5,9 @@
 /**
  * main - Entry point
  *
- * Description : new
+ * Description: new
  *
- * Return 0
+ * Return: 0
 */
 
 int main(void)
