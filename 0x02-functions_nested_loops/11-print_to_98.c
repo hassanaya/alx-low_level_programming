@@ -2,7 +2,7 @@
 
 /**
  * print_to_98 - adf
- * @x: int
+ * @n: int
  * Return: 0
 */
 
