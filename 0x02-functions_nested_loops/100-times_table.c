@@ -10,10 +10,10 @@ void print_times_table(int n)
 {
 	int h, m;
 
-	for (h  = 0 ; h < n ; h++)
+	for (h  = 0 ; h <= n ; h++)
 	{
 		_putchar('0');
-		for (m = 1 ; m  < n ; m++)
+		for (m = 1 ; m  <= n ; m++)
 		{
 			int mul = h * m;
 
