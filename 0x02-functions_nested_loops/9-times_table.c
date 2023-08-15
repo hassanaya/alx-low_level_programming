@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * jack_bauer - adf
+ * times_table - adf
  * Return: 0
 */
 
-void jack_bauer(void)
+void times_table(void)
 {
 	int h, m;
 
