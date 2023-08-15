@@ -13,17 +13,27 @@ void times_table(void)
 	{
 		for (m = 0 ; m  < 10 ; m++)
 		{
-			int mul = h * m;
-
-			if (mul < 10)
-				_putchar(mul  + '0');
+			if (m == 0)
+			{
+				_putchar('0');
+			}
 			else
 			{
-				_putchar((mul / 10) + '0'); 
-				_putchar((mul % 10) + '0');
+				int mul = h * m;
+
+				_putchar(',');
+				_putchar(' ');
+				if (mul < 10)
+				{
+					_putchar(' ');
+					_putchar(mul  + '0');
+				}
+				else
+				{
+					_putchar((mul / 10) + '0');
+					_putchar((mul % 10) + '0');
+				}
 			}
-			_putchar(',');
-			_putchar(' ');
 		}
 		_putchar('\n');
 	}
