@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * FizzBuzz - returns void
- * Return: void
+ * main - Entry point
+ * Return: int
  */
 
-void FizzBuzz(void)
+int main(void)
 {
 	int i;
 
@@ -22,4 +22,5 @@ void FizzBuzz(void)
 		_putchar(' ');
 	}
 	_putchar('\n');
+	return (0);
 }
