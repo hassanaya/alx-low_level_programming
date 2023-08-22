@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_rev - returns bool
+ * rev_string - returns bool
  * @s: pointer
  * Return: void
  */
 
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int count = 0, j = 0;
 	char temp;
