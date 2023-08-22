@@ -10,11 +10,11 @@ void puts_half(char *str)
 {
 	int count = 0 , j;
 
-	while (s[count])
+	while (str[count])
 		count++;
 	count++;
-	for (j = count / 2 ; s[j] != '\0' ; j++)
+	for (j = count / 2 ; str[j] != '\0' ; j++)
 	{
-		_putchar(s[j]);
+		_putchar(str[j]);
 	}
 }
