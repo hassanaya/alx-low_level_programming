@@ -13,8 +13,8 @@ void print_array(int *a, int n
 
 	for (j = 0 ; j < n ; j++)
 	{
-		_putchar(a[j] + '0');
-		if (j != n - 1 )
+		printf("%d", a[j]);
+		if (j != n - 1)
 		{
 			_putchar(',');
 			_putchar(' ');
