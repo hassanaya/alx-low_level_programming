@@ -8,18 +8,14 @@
 
 void puts2(char *str)
 {
-	bool open = true;
+	int open = 0;
 
 	while (*str != '\0')
 	{
-		if (open)
+		if (open % 2)
 		{
 			_putchar(*str);
-			open = false;
 		}
-		else
-		{
-			open = true;
-		}
+		open++;
 	}
 }
