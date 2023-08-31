@@ -2,7 +2,7 @@
 
 /**
  * factorial - returns bool
- * @s: pointer
+ * @n: pointer
  * Return: pointer
  */
 
