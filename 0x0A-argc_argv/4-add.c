@@ -8,6 +8,15 @@
  * Return: 0
  */
 
+int isStringInt(const char* str) {
+        char* endptr;
+
+        strtol(str, &endptr, 10);
+        if (*str != '\0' && *endptr == '\0')
+		return (1);
+	return (0);
+}
+
 int main(int argc, char const *argv[])
 {
 	int i, res = 0;
@@ -16,18 +25,13 @@ int main(int argc, char const *argv[])
 	{
 		for (i = 1 ; i < argc ; i++)
 		{
-			if (!atoi(argv[i]))
+			if (!isStringInt(argv[i]))
 			{
 				printf("Error\n");
 				return (1);
 			}
 			res += atoi(argv[i]);
 		}
-	}
-	else
-	{
-		printf("0\n");
-		return (0);
 	}
 	printf("%d\n", res);
 	return (0);
